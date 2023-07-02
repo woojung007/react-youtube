@@ -7,13 +7,13 @@ import { fetchVideo } from '../Detail.queries';
 export default function Content() {
     const { videoId } = useParams();
 
-    const { data, isLoading, error } = useQuery(['video', videoId], fetchVideo);
+    const { data: video, isLoading, error } = useQuery(['video', videoId], fetchVideo);
 
     if (isLoading) return <div>loading ...</div>;
 
     if (error) return <div> {error}</div>;
 
-    const { snippet, tags, statistics } = data;
+    const { snippet, tags, statistics } = video;
 
     const { title, channelTitle, description } = snippet;
 
