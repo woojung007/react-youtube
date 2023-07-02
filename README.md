@@ -17,9 +17,9 @@ yarn start
 
 ## 개발 환경
 
-node `v16.15.1`
+node `^16.15.1`
 
-react `^18.2.0`
+yarn `^1.22.15`
 
 ## directory
 
