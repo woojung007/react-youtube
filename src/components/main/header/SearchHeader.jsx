@@ -1,20 +1,8 @@
-import React, { useState } from 'react';
-import styles from './SearchHeader.module.css';
+import React from 'react';
 import { BiSearch } from 'react-icons/bi';
+import styles from './SearchHeader.module.css';
 
-export default function SearchHeader() {
-    const [keyword, setKeyword] = useState('');
-
-    const handleChangeKeyword = (e) => {
-        setKeyword(e.target.value);
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-
-        // 새로 검색하고 필터한다
-    };
-
+export default function SearchHeader({ handleSubmit, handleChangeKeyword, keyword }) {
     return (
         <header>
             <div className={styles.logo}>
