@@ -2,14 +2,16 @@ import React from 'react';
 import styles from './VideoCard.module.css';
 import { useNavigate } from 'react-router-dom';
 
-export default function VideoCard({ videoId }) {
+export default function VideoCard({ video }) {
     const navigate = useNavigate();
+
+    const { id, snippet } = video;
     return (
-        <section onClick={() => navigate(`/videos/${videoId}`)} className={styles.card}>
+        <section onClick={() => navigate(`/videos/${id.videoId}`)} className={styles.card}>
             <div className={styles.thumbnail}></div>
-            <div className={styles.title}>title</div>
-            <div className={styles.name}>BANGTAN TV</div>
-            <div className={styles.time}>1 day ago</div>
+            <div className={styles.title}>{snippet.title}</div>
+            <div className={styles.channelTitle}>{snippet.channelTitle}</div>
+            <div className={styles.publishedAt}>{snippet.publishedAt}</div>
         </section>
     );
 }
