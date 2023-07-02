@@ -1,0 +1,13 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.video {
+    width: 45rem;
+    height: 30rem;
+
+    background-color: lightblue;
+}

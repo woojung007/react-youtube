@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './Content.module.css';
 
 export default function Content() {
     return (
-        <div>
-            <div>detail video</div>
+        <div className={styles.content}>
+            <div className={styles.video}>detail video</div>
 
             <div>title</div>
             <div>
