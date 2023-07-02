@@ -13,13 +13,20 @@ export default function Content() {
 
     if (error) return <div> {error}</div>;
 
-    const { snippet, tags, statistics } = video;
+    const { snippet, tags, statistics, id } = video;
 
     const { title, channelTitle, description } = snippet;
 
     return (
         <div className={styles.content}>
-            <div className={styles.video}>detail video</div>
+            <div className={styles.video}>
+                <iframe
+                    id='ytplayer'
+                    type='text/html'
+                    src={`https://www.youtube.com/embed/${id}?autoplay=1&origin=http://example.com`}
+                    title={id}
+                ></iframe>
+            </div>
 
             <div>{title}</div>
             <div>

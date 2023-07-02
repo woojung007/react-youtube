@@ -5,7 +5,6 @@ import { fetchVideos } from './Videos.queries';
 import VideoCard from './item/VideoCard';
 
 export default function Videos() {
-    // const [videos, setVideos] = useState();
     const { data: videos, isLoading, error } = useQuery(['videos'], fetchVideos);
 
     if (isLoading) return <div>loading ...</div>;

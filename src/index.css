@@ -30,3 +30,7 @@ code {
 * {
     box-sizing: border-box;
 }
+
+iframe {
+    border: none;
+}

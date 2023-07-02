@@ -9,7 +9,6 @@ export default function RelatedVideos() {
 
     const { data: videos, isLoading, error } = useQuery(['related-videos', videoId], fetchRelatedVideos);
 
-    console.log('@@@', videos);
     if (isLoading) return <div>loading ...</div>;
 
     if (error) return <div> {error}</div>;
@@ -17,7 +16,16 @@ export default function RelatedVideos() {
         <div className={styles.related}>
             {videos?.map(({ id, snippet }) => (
                 <div className={styles.item} key={id.videoId}>
-                    <div className={styles.video}>video</div>
+                    <div className={styles.thumbnail}>
+                        {/* <img src={snippet.thumbnails.maxres.url} alt='thumbnail' /> */}
+
+                        <iframe
+                            id='ytplayer'
+                            type='text/html'
+                            src={`https://www.youtube.com/embed/${id.videoId}?autoplay=0&origin=http://example.com`}
+                            title={id}
+                        ></iframe>
+                    </div>
                     <div className={styles.content}>
                         <div>{snippet.title}</div>
                         <div>{snippet.channelTitle}</div>
