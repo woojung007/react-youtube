@@ -13,7 +13,7 @@ header {
 }
 
 .logo {
-    width: 7rem;
+    min-width: 7rem;
 
     overflow: hidden;
 

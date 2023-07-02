@@ -1,0 +1,856 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "ZOaK8EK2QUJkhOIIn3GKDhXy7LU",
+    "nextPageToken": "CBkQAA",
+    "regionCode": "KR",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 25
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "7KVwYWpdzUQMc-s9CwW4TKcfO84",
+            "id": {
+                "kind": "youtube#channel",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-07T08:51:57Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans",
+                "description": "NewJeans 공식 유튜브 채널.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://yt3.ggpht.com/Ritdi2Pdf33yHjLPHiqE-KH5wiF-SNfxgwyKPVLNWn-_8J1GcykMOfp9x273peY8EQNC-_qEeQ=s88-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "medium": {
+                        "url": "https://yt3.ggpht.com/Ritdi2Pdf33yHjLPHiqE-KH5wiF-SNfxgwyKPVLNWn-_8J1GcykMOfp9x273peY8EQNC-_qEeQ=s240-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "high": {
+                        "url": "https://yt3.ggpht.com/Ritdi2Pdf33yHjLPHiqE-KH5wiF-SNfxgwyKPVLNWn-_8J1GcykMOfp9x273peY8EQNC-_qEeQ=s800-c-k-c0xffffffff-no-rj-mo"
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-07T08:51:57Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "cPSUzqd6wFPbn_xYLTDvnYt6lAU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "CgNVotVutx0"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-26T15:00:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;ASAP&#39; Teaser",
+                "description": "NewJeans (뉴진스) 'ASAP' Teaser c 2023 ADOR. All Rights Reserved. Connect with NewJeans PHONING ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CgNVotVutx0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CgNVotVutx0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CgNVotVutx0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-26T15:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mkO2liikCE_yWeNargEVqDkbSOc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "sVTy_wmn5SU"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-03T11:30:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;OMG&#39; Official MV (Performance ver.1)",
+                "description": "NewJeans (뉴진스) 'OMG' Official MV (Performance ver.1) Producer: MIN HEE JIN Music Video Director: Wooseok Shin ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sVTy_wmn5SU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sVTy_wmn5SU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sVTy_wmn5SU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-03T11:30:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "bLeCVPDxwaKKMAtTXG0LZPXRwa0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "11cta61wi0g"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-18T09:00:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Hype Boy&#39; Official MV (Performance ver.1)",
+                "description": "NewJeans (뉴진스) 'Hype Boy' Official MV (Performance ver.1) Producer: MIN HEE JIN Music Video Director: Dongle Shin ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/11cta61wi0g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/11cta61wi0g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/11cta61wi0g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-18T09:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "bolHnlQX4q7KHi00ChmPMtBiMzU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "js1CtxSY38I"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-21T15:00:14Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Attention&#39; Official MV",
+                "description": "NewJeans (뉴진스) 'Attention' Official MV OFFICIAL WEBSITE https://newjeans.kr/ Producer: MIN HEE JIN Music Video Director: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/js1CtxSY38I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/js1CtxSY38I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/js1CtxSY38I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-21T15:00:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UkY_ob2qMhjVR03aPals3uAf5CI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Km71Rr9K-Bw"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-30T10:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) &#39;Ditto&#39; Performance Video",
+                "description": "NewJeans (뉴진스) 'Ditto' Performance Video Producer: MIN HEE JIN Performance Video Direction: Yemin Kim Performance ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Km71Rr9K-Bw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Km71Rr9K-Bw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Km71Rr9K-Bw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-30T10:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UxR6Ug_eccVCdskSywFe_G38HSQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "XIOoqJyx8E4"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-03T09:00:00Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) &#39;Zero&#39; Official MV",
+                "description": "Connect with NewJeans PHONING https://phoning.onelink.me/KG15/n7452q87 OFFICIAL YOUTUBE ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XIOoqJyx8E4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XIOoqJyx8E4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XIOoqJyx8E4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-03T09:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "9dF-YmJMGsq58zwH-yLQTBlIfxw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "HX9vJaXD8WE"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-21T13:03:17Z",
+                "channelId": "UC26zJf6LAJpBb8thyvsvwyw",
+                "title": "NewJeans x J.I.D | Zero (Remix) | Coke Studio",
+                "description": "Taste Coke Studio's new drop, a collision session featuring NewJeans and J.I.D for the first ever performance of their co-written ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/HX9vJaXD8WE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/HX9vJaXD8WE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/HX9vJaXD8WE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coke Studio",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-21T13:03:17Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "s_dhqTkhGg4-dQtY7imP_NjuBc8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "VOmIplFAGeg"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-01T08:58:12Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Cookie&#39; Official MV",
+                "description": "NewJeans (뉴진스) 'Cookie' Official MV Producer: MIN HEE JIN Music Video Director: Dongle Shin c 2022 ADOR. All Rights ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VOmIplFAGeg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VOmIplFAGeg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VOmIplFAGeg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-01T08:58:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "AkFj42tOnCMaaleg_AB3w82QDUM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "tVIXY14aJms"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-24T15:00:02Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Hurt&#39; Official MV",
+                "description": "NewJeans (뉴진스) 'Hurt' Official MV OFFICIAL WEBSITE https://newjeans.kr/ Producer: MIN HEE JIN Music Video Director: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/tVIXY14aJms/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/tVIXY14aJms/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/tVIXY14aJms/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-24T15:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "dy9ZFocK11TQr7EWQcBOjLqrSik",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "jexw4yfeMnE"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-07T10:20:30Z",
+                "channelId": "UCSfYfiCYdm_GkOeNIdNLN3w",
+                "title": "[Full Album] NewJeans (뉴진스) - ALL SONGS (Playlist)",
+                "description": "[Full Album] NewJeans (뉴진스) - ALL SONGS (Playlist) Track List: 01. OMG 02. Ditto 03. Attention 04. Hype Boy 05. Cookie 06.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jexw4yfeMnE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jexw4yfeMnE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jexw4yfeMnE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Zenikk",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-07T10:20:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tkPEywYFKl7J7VleykfSEY7w8Kg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_ZAgIHmHLdc"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-02T09:00:00Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;OMG&#39; Official MV",
+                "description": "NewJeans (뉴진스) 'OMG' Official MV Producer: MIN HEE JIN Music Video Director: Wooseok Shin (DOLPHINERS FILM) c 2023 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_ZAgIHmHLdc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-02T09:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "JdivxCyYD_9YEwD1PeP3JclOmSA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "T6CWrx166Z0"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-29T10:00:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "NewJeans (뉴진스) &#39;INTRO+OMG&#39; Stage Cam @ 2023 Weverse Con Festival",
+                "description": "NewJeans (뉴진스) 'INTRO+OMG' Stage Cam @ 2023 Weverse Con Festival c 2023 ADOR. All Rights Reserved. Connect with ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/T6CWrx166Z0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/T6CWrx166Z0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/T6CWrx166Z0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-29T10:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "BeyH95eIzNHEQrYC_3b54PBUJWg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "a9QB7oJ5_3Q"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-19T01:55:01Z",
+                "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+                "title": "Coming Soon! NewJeans 2nd EP &#39;Get Up&#39; #Time_to_NewJeans #NewJeans #뉴진스 #NewJeans_2nd_EP",
+                "description": "Coming Soon! NewJeans 2nd EP 'Get Up' 2023.7.7. Pre-Release 2023.7.21. 2nd EP 'Get Up' Release ✓ Pre-Order ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/a9QB7oJ5_3Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/a9QB7oJ5_3Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/a9QB7oJ5_3Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-19T01:55:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "japtVs8FchWvErp_Jp76gm5nlYg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "I90rnEfBFJE"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-11T07:17:17Z",
+                "channelId": "UC2vf2MvPbNBShsGDz-2CNMQ",
+                "title": "NEWJEANS PLAYLIST 2023",
+                "description": "newjeans #kpop.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/I90rnEfBFJE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/I90rnEfBFJE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/I90rnEfBFJE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NiNi ASMR",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-11T07:17:17Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_uEtmr-onW6anyfKQtA7LUVGTD0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "qNmi3ir7ptE"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-20T23:00:18Z",
+                "channelId": "UCxOqS3cYg4FaHbobICo7nFQ",
+                "title": "Zero (J.I.D Remix)",
+                "description": "Provided to YouTube by 'ADOR' Zero (J.I.D Remix) · NewJeans Zero (J.I.D Remix) Released on: 2023-06-21 Auto-generated by ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qNmi3ir7ptE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qNmi3ir7ptE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qNmi3ir7ptE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NewJeans - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-20T23:00:18Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "0aDvmXMMUGD7IE-PyfOx_lMFFfU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "I__pohqyMmk"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-25T12:15:00Z",
+                "channelId": "UC6cpWa5gy29c-uhQqbqTM-A",
+                "title": "Bunnies Defend Newjeans Haerin&#39;s Natural Beauty",
+                "description": "Music: Vitamin - JAK https://soundcloud.com/arkadenmusicof... Support by RFM - NCM: https://bit.ly/3T9kHJV - The Recent Plastic ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/I__pohqyMmk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/I__pohqyMmk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/I__pohqyMmk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KKRUSH KPOP",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-25T12:15:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ax6MRuQWuoCp00aLPsao-ZSG8zs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "FFbFxC8CBlg"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-11T13:33:07Z",
+                "channelId": "UCrTCkJ8377E7JhsMeyLXtKA",
+                "title": "230611 뉴진스 NewJeans &#39;OMG&#39; 4K 60P 직캠 @위버스콘 by DaftTaengk",
+                "description": "230611 뉴진스 NewJeans 'OMG' 4K 60P FANCAM @Weverse Con by DaftTaengk.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FFbFxC8CBlg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FFbFxC8CBlg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FFbFxC8CBlg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "DaftTaengk",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-11T13:33:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "4Qi2hh6aPdUKoNz4CkqcWU_7tBs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "x8RIixqumUc"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-22T03:00:02Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Attention&#39; Official MV (Performance ver.)",
+                "description": "NewJeans (뉴진스) 'Attention' Official MV (Performance ver.) OFFICIAL WEBSITE https://newjeans.kr/ Producer: MIN HEE JIN ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/x8RIixqumUc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/x8RIixqumUc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/x8RIixqumUc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-22T03:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "soHKGMEL4qOFAsGAJ6JHZhiD67Y",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pSUydWEqKwE"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-19T09:00:03Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;Ditto&#39; Official MV (side A)",
+                "description": "Producer: MIN HEE JIN Music Video Director: Wooseok Shin (DOLPHINERS FILM) c 2022 ADOR. All Rights Reserved. Connect ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pSUydWEqKwE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pSUydWEqKwE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pSUydWEqKwE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-19T09:00:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "eMquzRCB_ZAz7h4rblw9mFJ9eAc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "jUNz-uTF--E"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-19T09:00:20Z",
+                "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+                "title": "[단독샷캠4K] 뉴진스 &#39;Ditto&#39; 단독샷 별도녹화│NewJeans ONE TAKE STAGE @SBS Inkigayo 230115",
+                "description": "[단독샷캠4K] 뉴진스 'Ditto' 단독샷 별도녹화│NewJeans ONE TAKE STAGE @SBS Inkigayo 230115 (Ft. 스탠다드 별도녹화) #인기 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jUNz-uTF--E/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jUNz-uTF--E/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jUNz-uTF--E/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "스브스케이팝 X INKIGAYO",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-19T09:00:20Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "KVXWYUlKsGDRoCUsXvooNqsM9To",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "mFulpHNiCgA"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-17T11:00:36Z",
+                "channelId": "UCD-4WUWx49G__nOklK9f67Q",
+                "title": "[Full Songs] NewJeans (뉴진스) - All Songs Playlist 2023",
+                "description": "[Full Songs] NewJeans (뉴진스) - All Songs Playlist 2023 1. OMG [0:00] 2. Ditto [3:35] 3. Attention [6:43] 4. Hype Boy [9:41] 5.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mFulpHNiCgA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mFulpHNiCgA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mFulpHNiCgA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Cherrix",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-17T11:00:36Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UV0pF_rJaUzfKz46oLurzzxjNc4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lgfXrQUx4go"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-02T14:00:12Z",
+                "channelId": "UCEIi7zFR_wE23jFncVtd6-A",
+                "title": "[BE ORIGINAL] NewJeans(뉴진스) &#39;Attention&#39; (4K)",
+                "description": "[BE ORIGINAL] NewJeans 'Attention' [비 오리지널] 뉴진스 'Attention' 갓기 토깽이들의 스춤 데뷔로 놀러와   (2:19) 민지 등장에 하트 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lgfXrQUx4go/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lgfXrQUx4go/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lgfXrQUx4go/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "STUDIO CHOOM [스튜디오 춤]",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-02T14:00:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "BTTum3luF4_ObGVodxjvHpYFzmg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "QZuhpNWvvWM"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-25T15:00:01Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "NewJeans (뉴진스) &#39;ETA&#39; Teaser",
+                "description": "NewJeans (뉴진스) 'ETA' Teaser c 2023 ADOR. All Rights Reserved. Connect with NewJeans PHONING ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/QZuhpNWvvWM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/QZuhpNWvvWM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/QZuhpNWvvWM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-25T15:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "eA7mps1_34LlZBYUCa4tNTmEixc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "CHp0Kaidr14"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-05T14:00:07Z",
+                "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+                "title": "[뮤뱅 원테이크 4K] 뉴진스(NewJeans) &#39;Attention&#39; 4K Bonus Ver. @뮤직뱅크(Music Bank) 220805",
+                "description": "NewJeans #뉴진스 #Attention #원테이크 #원테이크4K More from #KBSKPOP Twitter: https://twitter.com/StudioK_twt Instagram: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CHp0Kaidr14/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CHp0Kaidr14/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CHp0Kaidr14/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS Kpop",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-05T14:00:07Z"
+            }
+        }
+    ]
+}
