@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BiSearch } from 'react-icons/bi';
 import { useNavigate } from 'react-router-dom';
 import styles from './SearchHeader.module.css';
 import { useQuery } from '@tanstack/react-query';
 import { fetchVideosByKeyword } from './SearchHeader.queries';
+import { useVideosStore } from '../../../context/VideosProvider';
 
 export default function SearchHeader() {
     const navigate = useNavigate();
     const [keyword, setKeyword] = useState('');
+    const { setVideos } = useVideosStore();
 
     const { data: videos, isLoading, error } = useQuery(['videos', keyword], fetchVideosByKeyword);
 
@@ -17,11 +19,13 @@ export default function SearchHeader() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
         navigate(`/${keyword}`);
-
-        // 새로 검색하고 필터한다
+        setVideos(videos);
     };
+
+    if (isLoading) return <div>loading ...</div>;
+
+    if (error) return <div> {error}</div>;
 
     return (
         <header>
@@ -38,7 +42,7 @@ export default function SearchHeader() {
                     value={keyword}
                     placeholder='Search...'
                 />
-                <button type='button'>
+                <button type='submit'>
                     <BiSearch />
                 </button>
             </form>
