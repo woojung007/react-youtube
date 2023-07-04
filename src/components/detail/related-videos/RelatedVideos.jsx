@@ -17,8 +17,6 @@ export default function RelatedVideos() {
             {videos?.map(({ id, snippet }) => (
                 <div className={styles.item} key={id.videoId}>
                     <div className={styles.thumbnail}>
-                        {/* <img src={snippet.thumbnails.maxres.url} alt='thumbnail' /> */}
-
                         <iframe
                             id='ytplayer'
                             type='text/html'

@@ -11,8 +11,6 @@ export default function VideoCard({ video }) {
     return (
         <section onClick={() => navigate(`/videos/${id.videoId}`)} className={styles.card}>
             <div className={styles.thumbnail}>
-                {/* <img src={snippet.thumbnails.high.url} alt='thumbnail' /> */}
-
                 <iframe
                     id='ytplayer'
                     type='text/html'

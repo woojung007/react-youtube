@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import React, { useState } from 'react';
 import { BiSearch } from 'react-icons/bi';
 import { useNavigate } from 'react-router-dom';
-import styles from './SearchHeader.module.css';
-import { useQuery } from '@tanstack/react-query';
-import { fetchVideosByKeyword } from './SearchHeader.queries';
 import { useVideosStore } from '../../../context/VideosProvider';
+import styles from './SearchHeader.module.css';
+import { fetchVideosByKeyword } from './SearchHeader.queries';
 
 export default function SearchHeader() {
     const navigate = useNavigate();
