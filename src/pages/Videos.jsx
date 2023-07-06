@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function MainPage() {
+export default function Videos() {
     return (
         <div>
-            <div>Main</div>
+            <div>Videos</div>
         </div>
     );
 }

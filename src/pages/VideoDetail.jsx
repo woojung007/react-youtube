@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-export default function VideoDetailPage() {
+export default function VideoDetail() {
     const { videoId } = useParams();
 
     console.log(videoId);
