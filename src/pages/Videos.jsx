@@ -1,9 +1,8 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
 export default function Videos() {
-    return (
-        <div>
-            <div>Videos</div>
-        </div>
-    );
+    const { keyword } = useParams();
+
+    return <div>videos {keyword ? `${keyword}` : '🔥'}</div>;
 }
