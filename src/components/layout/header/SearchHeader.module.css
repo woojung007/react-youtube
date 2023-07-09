@@ -8,7 +8,8 @@ header {
 
     border-bottom: 1px solid #bebebe;
 
-    padding: 1rem 10rem;
+    padding: 1rem 0;
+    padding-right: 10rem;
 }
 
 .logo {

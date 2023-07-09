@@ -3,7 +3,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import SearchHeader from 'components/layout/header/SearchHeader';
 import VideosProvider from 'context/VideosProvider';
 import { Outlet } from 'react-router-dom';
-import './App.css';
+import styles from './App.module.css';
 
 function App() {
     const queryClient = new QueryClient({
@@ -19,8 +19,10 @@ function App() {
     return (
         <VideosProvider>
             <QueryClientProvider client={queryClient}>
-                <SearchHeader />
-                <Outlet />
+                <div className={styles.app}>
+                    <SearchHeader />
+                    <Outlet />
+                </div>
 
                 <ReactQueryDevtools initialIsOpen={false} />
             </QueryClientProvider>
