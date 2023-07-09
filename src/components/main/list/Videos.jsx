@@ -7,8 +7,6 @@ import VideoCard from './item/VideoCard';
 export default function Videos() {
     const { data: videos, isLoading, error } = useQuery(['videos', ''], fetchVideosByKeyword);
 
-    if (isLoading) return <div>loading ...</div>;
-
     if (error) return <div> {error}</div>;
 
     return (

@@ -1,45 +1,47 @@
 import { useQuery } from '@tanstack/react-query';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BiSearch } from 'react-icons/bi';
-import { useNavigate } from 'react-router-dom';
+import { BsYoutube } from 'react-icons/bs';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useVideosStore } from '../../../context/VideosProvider';
 import styles from './SearchHeader.module.css';
 import { fetchVideosByKeyword } from './SearchHeader.queries';
 
 export default function SearchHeader() {
     const navigate = useNavigate();
-    const [keyword, setKeyword] = useState('');
+    const [text, setText] = useState('');
     const { setVideos } = useVideosStore();
+    const { keyword } = useParams();
 
-    const { data: videos, isLoading, error } = useQuery(['videos', keyword], fetchVideosByKeyword);
-
-    const handleChangeKeyword = (e) => {
-        setKeyword(e.target.value);
-    };
+    const { data: videos } = useQuery(['videos', text], fetchVideosByKeyword);
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        navigate(`/${keyword}`);
+        navigate(`/videos/${text}`);
         setVideos(videos);
     };
 
-    if (isLoading) return <div>loading ...</div>;
-
-    if (error) return <div> {error}</div>;
+    useEffect(() => {
+        setText(keyword || '');
+    }, [keyword]);
 
     return (
         <header>
             <div onClick={() => navigate('/')} className={styles.logo}>
-                {/* <img src='assets/logo.png' alt='logo' /> */}
-                <img src='assets/logo-dark.png' alt='logo' />
+                <Link to='/'>
+                    <BsYoutube />
+                    <h1>Youtube</h1>
+                </Link>
             </div>
 
             <form onSubmit={handleSubmit}>
                 <input
                     className={styles.input}
-                    onChange={handleChangeKeyword}
+                    onChange={(e) => {
+                        setText(e.target.value);
+                    }}
                     type='text'
-                    value={keyword}
+                    value={text}
                     placeholder='Search...'
                 />
                 <button type='submit'>

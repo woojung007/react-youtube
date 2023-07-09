@@ -9,7 +9,7 @@ export default function VideoCard({ video }) {
     const { id, snippet } = video;
 
     return (
-        <section onClick={() => navigate(`/videos/${id.videoId}`)} className={styles.card}>
+        <section onClick={() => navigate(`/videos/watch/${id.videoId}`)} className={styles.card}>
             <div className={styles.thumbnail}>
                 <iframe
                     id='ytplayer'

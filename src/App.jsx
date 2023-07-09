@@ -1,11 +1,9 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
-import Layout from 'components/layout/Layout';
-import DetailPage from 'pages/DetailPage';
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import MainPage from './pages/MainPage';
+import SearchHeader from 'components/layout/header/SearchHeader';
 import VideosProvider from 'context/VideosProvider';
+import { Outlet } from 'react-router-dom';
+import './App.css';
 
 function App() {
     const queryClient = new QueryClient({
@@ -21,13 +19,8 @@ function App() {
     return (
         <VideosProvider>
             <QueryClientProvider client={queryClient}>
-                <Layout>
-                    <Routes>
-                        <Route path='/' element={<MainPage />} />
-                        <Route path='/:keyword' element={<MainPage />} />
-                        <Route path='/videos/:videoId' element={<DetailPage />} />
-                    </Routes>
-                </Layout>
+                <SearchHeader />
+                <Outlet />
 
                 <ReactQueryDevtools initialIsOpen={false} />
             </QueryClientProvider>
