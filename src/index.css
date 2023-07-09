@@ -34,3 +34,8 @@ code {
 iframe {
     border: none;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

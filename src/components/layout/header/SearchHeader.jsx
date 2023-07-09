@@ -27,12 +27,10 @@ export default function SearchHeader() {
 
     return (
         <header>
-            <div onClick={() => navigate('/')} className={styles.logo}>
-                <Link to='/'>
-                    <BsYoutube />
-                    <h1>Youtube</h1>
-                </Link>
-            </div>
+            <Link to='/' className={styles.logo}>
+                <BsYoutube />
+                <h1>YouTube</h1>
+            </Link>
 
             <form onSubmit={handleSubmit}>
                 <input
