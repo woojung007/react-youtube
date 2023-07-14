@@ -34,7 +34,7 @@ export default function SearchHeader() {
                     type='text'
                     placeholder='Search...'
                     value={text}
-                    onChange={(e) => setText(e.target.value)}
+                    onChange={(e) => setText(e.currentTarget.value)}
                 />
                 <button className='bg-zinc-600 px-4'>
                     <BsSearch />
