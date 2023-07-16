@@ -6,6 +6,7 @@ import { Outlet } from 'react-router-dom';
 const queryClient = new QueryClient({
     defaultOptions: {
         refetchOnWindow: false,
+        staleTime: 1000 * 60 * 5,
     },
 });
 
