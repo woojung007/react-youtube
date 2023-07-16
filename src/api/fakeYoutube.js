@@ -9,7 +9,7 @@ export default class FakeYoutube {
     }
 
     // private
-    async #searchByKeyword(keyword) {
+    async #searchByKeyword() {
         return axios
             .get(`/videos/search.json`)
             .then((res) => res.data.items)
