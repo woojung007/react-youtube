@@ -6,8 +6,8 @@ import { createContext, useContext } from 'react';
 export const YoutubeApiContext = createContext();
 
 export function YoutubeApiProvider({ children }) {
-    const client = new FakeYoutubeClient();
-    // const client = new YoutubeClient();
+    // const client = new FakeYoutubeClient();
+    const client = new YoutubeClient();
     const youtube = new Youtube(client);
 
     return <YoutubeApiContext.Provider value={{ youtube }}>{children}</YoutubeApiContext.Provider>;

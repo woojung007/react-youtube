@@ -7,7 +7,9 @@ export default function VideoCard({ video }) {
     const navigate = useNavigate();
 
     return (
-        <li onClick={() => navigate(`videos/watch/${video.id}`, { state: { video } })}>
+        // navigate 절대 경로로 적어줘야 함 => 앞에 /
+        // 아니면 상대경로로 들어가게 됌 => 현재 경로에서 추가 됌
+        <li onClick={() => navigate(`/videos/watch/${video.id}`, { state: { video } })}>
             <img className='w-full' src={thumbnails.medium.url} alt={title} />
             <div>
                 <p className='font-semibold my-2 line-clamp-2'>{title}</p>

@@ -11,8 +11,6 @@ export default function Videos() {
 
     return (
         <>
-            <div>videos {keyword ? `${keyword}` : '🔥'}</div>
-
             {isLoading && <p>Loading...</p>}
             {error && <p>Something is wrong 😅</p>}
             {videos && (
