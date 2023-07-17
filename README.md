@@ -4,7 +4,7 @@
 
 ## Demo
 
--   [배포 링크](https://64a0d9809bc5c7078424b8e4--cheerful-treacle-b3c2e5.netlify.app/)
+-   [배포 링크](https://deploy-preview-3--storied-brigadeiros-70902f.netlify.app/)
 
 <!-- mov 업로드 -->
 
