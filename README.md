@@ -6,7 +6,9 @@
 
 -   [배포 링크](https://deploy-preview-3--storied-brigadeiros-70902f.netlify.app/)
 
-<!-- mov 업로드 -->
+https://github.com/woojung007/project-youtube/assets/99471927/bc8110b7-da8e-45de-b71b-044428ed4a57
+
+<br/>
 
 ## 실행
 
