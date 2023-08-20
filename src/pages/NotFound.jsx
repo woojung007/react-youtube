@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function MainPage() {
+export default function NotFound() {
     return (
         <div>
-            <div>Main</div>
+            <div>Not Found!</div>
         </div>
     );
 }

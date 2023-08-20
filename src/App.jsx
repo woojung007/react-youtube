@@ -1,14 +1,25 @@
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import MainPage from './pages/MainPage';
-import VideoDetailPage from 'pages/VideoDetailPage';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import SearchHeader from 'components/SearchHeader';
+import { YoutubeApiProvider } from 'context/YoutubeApiContext';
+import { Outlet } from 'react-router-dom';
+
+const queryClient = new QueryClient({
+    defaultOptions: {
+        refetchOnWindow: false,
+        staleTime: 1000 * 60 * 5,
+    },
+});
 
 function App() {
     return (
-        <Routes>
-            <Route path='/' element={<MainPage />} />
-            <Route path='/:videoId' element={<VideoDetailPage />} />
-        </Routes>
+        <>
+            <SearchHeader />
+            <YoutubeApiProvider>
+                <QueryClientProvider client={queryClient}>
+                    <Outlet />
+                </QueryClientProvider>
+            </YoutubeApiProvider>
+        </>
     );
 }
 
