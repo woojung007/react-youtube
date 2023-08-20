@@ -6,7 +6,6 @@ import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
     {
@@ -28,5 +27,3 @@ root.render(
         <RouterProvider router={router} />
     </React.StrictMode>,
 );
-
-reportWebVitals();
