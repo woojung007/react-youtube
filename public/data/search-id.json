@@ -1,0 +1,103 @@
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "47mUtIZ4UJZpd4S5bVgtnKv9JWM",
+    "items": [
+        {
+            "kind": "youtube#video",
+            "etag": "dtAU8Ov5G94_DJ-xpf4VOJe62U0",
+            "id": "adMBDxnhJMw",
+            "snippet": {
+                "publishedAt": "2018-04-25T15:00:00Z",
+                "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+                "title": "Ep6 Moonchild | BTS: Burn the Stage",
+                "description": "A surprise appear while in Southeast Asia: BTS are nominated for a Billboard Music Award! Will success on the global stage change them?\n\nThe members are honored and excited, but continue to focus on the path before them. BTS eventually win the award, becoming the first ever K-Pop artist to ever win a Billboard Music Award. Despite their growing renown, the members stay humble and make sure to remember what got them to where they are.\n\nAvailable with YouTube Premium - https://www.youtube.com/premium/originals. To see if Premium is available in your country, click here: https://goo.gl/A3HtfP\n\n--\n동남아에서 다시 이어지는 월드 투어, 투어 중간 BTS 는 빌보드 톱 소셜 아티스트상 후보에 올랐다는 소식을 듣게 된다. 기쁨과 기대 속에서 공연에 집중하기 위해 노력하는 BTS. 결국 BTS는 수상에 성공하며, 한국 가수로는 최초로 빌보드 뮤직 어워드에서 수상한 아티스트가 된다. 성공이 거듭될 수록 더 겸손하고 감사한 마음을 갖기 위해 서로를 다독이는 멤버들, 300일 간의 월드 투어 대 장정은 어느 덧 중반을 넘어서게 된다.\n\n0:00 Upping Their Game\n2:18 Thailand\n6:10 Indonesia\n7:07 Improving Singing Style\n9:40 Philippines\n11:17 Hong Kong\n17:53 Billboard Music Awards",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/adMBDxnhJMw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/adMBDxnhJMw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/adMBDxnhJMw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/adMBDxnhJMw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/adMBDxnhJMw/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "BANGTANTV",
+                "tags": [
+                    "BTS",
+                    "K-pop",
+                    "Music",
+                    "Suga",
+                    "RM",
+                    "Rap Monster",
+                    "Jimin",
+                    "Jin",
+                    "Jungkook",
+                    "J-Hope",
+                    "Bangtan TV",
+                    "Bangtan",
+                    "Music Documentary",
+                    "Documentary",
+                    "Concert",
+                    "Wings Tour",
+                    "World Tour",
+                    "YouTube",
+                    "YouTube Red",
+                    "YouTube Red Originals",
+                    "Original Series",
+                    "YouTube Red Series",
+                    "YouTube Original Series",
+                    "dream",
+                    "growth",
+                    "passion",
+                    "artist",
+                    "musician"
+                ],
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "defaultLanguage": "en",
+                "localized": {
+                    "title": "Ep6 Moonchild | BTS: Burn the Stage",
+                    "description": "A surprise appear while in Southeast Asia: BTS are nominated for a Billboard Music Award! Will success on the global stage change them?\n\nThe members are honored and excited, but continue to focus on the path before them. BTS eventually win the award, becoming the first ever K-Pop artist to ever win a Billboard Music Award. Despite their growing renown, the members stay humble and make sure to remember what got them to where they are.\n\nAvailable with YouTube Premium - https://www.youtube.com/premium/originals. To see if Premium is available in your country, click here: https://goo.gl/A3HtfP\n\n--\n동남아에서 다시 이어지는 월드 투어, 투어 중간 BTS 는 빌보드 톱 소셜 아티스트상 후보에 올랐다는 소식을 듣게 된다. 기쁨과 기대 속에서 공연에 집중하기 위해 노력하는 BTS. 결국 BTS는 수상에 성공하며, 한국 가수로는 최초로 빌보드 뮤직 어워드에서 수상한 아티스트가 된다. 성공이 거듭될 수록 더 겸손하고 감사한 마음을 갖기 위해 서로를 다독이는 멤버들, 300일 간의 월드 투어 대 장정은 어느 덧 중반을 넘어서게 된다.\n\n0:00 Upping Their Game\n2:18 Thailand\n6:10 Indonesia\n7:07 Improving Singing Style\n9:40 Philippines\n11:17 Hong Kong\n17:53 Billboard Music Awards"
+                },
+                "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+                "duration": "PT24M5S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "true",
+                "licensedContent": true,
+                "regionRestriction": {
+                    "blocked": ["ID", "JO", "SG", "VN", "ZA"]
+                },
+                "contentRating": {},
+                "projection": "rectangular"
+            },
+            "statistics": {
+                "favoriteCount": "0",
+                "commentCount": "2580"
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 1
+    }
+}
