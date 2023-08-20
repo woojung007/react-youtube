@@ -4,7 +4,7 @@
 
 ## Demo
 
--   [배포 링크](https://deploy-preview-3--storied-brigadeiros-70902f.netlify.app/)
+-   [배포 링크](https://main--relaxed-llama-55936e.netlify.app/)
 
 https://github.com/woojung007/project-youtube/assets/99471927/bc8110b7-da8e-45de-b71b-044428ed4a57
 
@@ -26,16 +26,41 @@ yarn `^1.22.15`
 ## directory
 
 ```
-📁 src
- ┣ components
- ┣ pages
- ┃ ┗ MainPage.jsx
- ┣ App.css
- ┣ App.jsx
- ┣ index.css
- ┗ index.jsx
-
+📁 project-youtube
+├─ public
+│  ├─ favicon.jpeg
+│  ├─ index.html
+│  ├─ manifest.json
+│  ├─ robots.txt
+│  └─ videos
+│     ├─ channel.json
+│     ├─ popular.json
+│     ├─ related.json
+│     └─ search.json
+├─ src
+│  ├─ App.jsx
+│  ├─ api
+│  │  ├─ fakeYoutubeClient.js
+│  │  ├─ youtube.js
+│  │  └─ youtubeClient.js
+│  ├─ components
+│  │  ├─ ChannelInfo.jsx
+│  │  ├─ RelatedVideos.jsx
+│  │  ├─ SearchHeader.jsx
+│  │  └─ VideoCard.jsx
+│  ├─ context
+│  │  └─ YoutubeApiContext.jsx
+│  ├─ index.css
+│  ├─ index.jsx
+│  ├─ pages
+│  │  ├─ NotFound.jsx
+│  │  ├─ VideoDetail.jsx
+│  │  └─ Videos.jsx
+│  └─ util
+│     └─ date.js
+└─ tailwind.config.js
 ```
+
 
 ## APIS
 
