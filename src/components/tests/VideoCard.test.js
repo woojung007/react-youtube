@@ -40,7 +40,7 @@ describe('VideoCard', () => {
             ),
         );
 
-        const card = screen.getByRole('listitem'); // li 태그
+        const card = screen.getByRole('listitem'); // li 태그, https://www.w3.org/TR/html-aria/#docconformance 참고
         userEvent.click(card); // list 카드가 클릭되면
 
         expect(screen.getByText(JSON.stringify({ video }))).toBeInTheDocument();
