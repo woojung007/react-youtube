@@ -28,6 +28,9 @@ https://github.com/woojung007/project-youtube/assets/99471927/bc8110b7-da8e-45de
    - 검색창 검색어
    - 반응형
 - API 연결
+- 테스트 코드
+   - 컴포넌트 테스트 (React Testing Library)
+   - 스냅샷 테스트 (Jest)
 
 <br/>
 
