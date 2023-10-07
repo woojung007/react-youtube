@@ -3,6 +3,7 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import VideoCard from 'components/VideoCard';
 import { Route, useLocation } from 'react-router-dom';
+import renderer from 'react-test-renderer';
 import { withRouter } from 'tests/utils';
 import { fakeVideo as video } from 'tests/videos';
 import { formatAgo } from 'util/date';
@@ -10,11 +11,25 @@ import { formatAgo } from 'util/date';
 describe('VideoCard', () => {
     const { title, channelTitle, publishedAt, thumbnails } = video.snippet;
 
+    // snapshot
+    it('renders grid type correctly', () => {
+        const component = renderer.create(withRouter(<Route path='/' element={<VideoCard video={video} />} />));
+        const tree = component.toJSON();
+        expect(tree).toMatchSnapshot();
+    });
+
+    // snapshot
+    it('renders list type correctly', () => {
+        const component = renderer.create(
+            withRouter(<Route path='/' element={<VideoCard video={video} type='list' />} />),
+        );
+        expect(component.toJSON()).toMatchSnapshot();
+    });
+
     it('renders video item', () => {
-        // Given
+        // When
         render(withRouter(<Route path='/' element={<VideoCard video={video} />} />));
 
-        // When
         const image = screen.getByRole('img');
 
         // Then
@@ -40,7 +55,7 @@ describe('VideoCard', () => {
             ),
         );
 
-        const card = screen.getByRole('listitem'); // li 태그, https://www.w3.org/TR/html-aria/#docconformance 참고
+        const card = screen.getByRole('listitem'); // li 역할을 하는 태그가 있는지, https://www.w3.org/TR/html-aria/#docconformance 참고
         userEvent.click(card); // list 카드가 클릭되면
 
         expect(screen.getByText(JSON.stringify({ video }))).toBeInTheDocument();
