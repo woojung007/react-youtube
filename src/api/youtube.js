@@ -20,7 +20,7 @@ export default class Youtube {
                     part: 'snippet',
                     maxResults: 25,
                     type: 'video',
-                    relatedToVideoId: id,
+                    id,
                 },
             })
             .then((res) => res.data.items.map((item) => ({ ...item, id: item.id.videoId })));
