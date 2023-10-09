@@ -12,7 +12,7 @@ export default function RelatedVideos({ id }) {
             {isLoading && <p>Loading...</p>}
             {error && <p>Something is wrong 😅</p>}
             {videos && (
-                <ul className=''>
+                <ul>
                     {videos.map((video) => (
                         <VideoCard type='list' key={video.id} video={video} />
                     ))}
