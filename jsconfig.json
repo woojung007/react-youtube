@@ -4,6 +4,6 @@
         "baseUrl": "src",
         "target": "es6"
     },
-    "include": ["src/**/*"],
+    "include": ["src/**/*", "setup-jest.js"],
     "exclude": ["node_modules"]
 }

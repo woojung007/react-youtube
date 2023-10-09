@@ -1,4 +1,3 @@
-import '@testing-library/jest-dom';
 import { render, screen, waitFor } from '@testing-library/react';
 import ChannelInfo from 'components/ChannelInfo';
 import { Route } from 'react-router-dom';
