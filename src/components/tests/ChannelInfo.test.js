@@ -1,4 +1,3 @@
-/* eslint-disable testing-library/prefer-find-by */
 import '@testing-library/jest-dom';
 import { render, screen, waitFor } from '@testing-library/react';
 import ChannelInfo from 'components/ChannelInfo';
@@ -43,7 +42,7 @@ describe('ChannelInfo', () => {
         fakeYoutube.channelImageUrl.mockImplementation(() => 'url');
         renderChannelInfo();
 
-        await waitFor(() => expect(screen.getByRole('img')).toBeInTheDocument());
+        await screen.findByRole('img');
     });
 
     function renderChannelInfo() {
