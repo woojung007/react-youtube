@@ -31,6 +31,7 @@ https://github.com/woojung007/project-youtube/assets/99471927/bc8110b7-da8e-45de
 - 테스트 코드
    - 컴포넌트 테스트 (React Testing Library)
    - 스냅샷 테스트 (Jest)
+   - E2E 테스트 (Cypress)
 
 <br/>
 
